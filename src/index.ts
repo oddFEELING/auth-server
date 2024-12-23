@@ -1,4 +1,4 @@
 
 export default function SayHello(text: string)  {
-   return "Hello " + text
+   return `Hello ${text}`
 }
