@@ -23,4 +23,5 @@ jobs:
         id: changesets
         uses: changesets/action@v1
         with:
+          token: ${{ secrets.SECRET_TOKEN }}
           publish: pnpm run build
