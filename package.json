@@ -13,7 +13,7 @@
   "types": "./dist/index.d.ts",
   "scripts": {
     "build": "tsup",
-    "test": "test "
+    "lint": "tsc"
   },
   "devDependencies": {
     "@changesets/cli": "^2.27.11",
