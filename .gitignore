@@ -2,3 +2,6 @@
 *.npmrc
 .env
 .env.local
+/dist
+
+.idea

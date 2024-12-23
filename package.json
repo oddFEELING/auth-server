@@ -1,19 +1,29 @@
 {
   "name": "@oddfeeling/auth-server",
   "version": "0.0.1",
-  "description": "Auth server ",
+  "description": "Auth server",
   "keywords": [
     "authentication"
   ],
   "license": "MIT",
   "author": "Emmanuel Alawode",
-  "type": "module ",
-  "main": "dist/index.js ",
+  "type": "module",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
   "scripts": {
+    "build": "tsup",
     "test": "test "
   },
   "devDependencies": {
+    "@changesets/cli": "^2.27.11",
     "tsup": "^8.3.5",
     "typescript": "^5.7.2"
+  },
+  "repository": "https://github.com/oddFEELING/auth-server.git",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com",
+    "tag": "Beta",
+    "access": "public"
   }
 }
