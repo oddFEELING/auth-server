@@ -12,7 +12,7 @@
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
   "scripts": {
-    "build": "tsup",
+    "build": "tsup && changeset publish",
     "lint": "tsc"
   },
   "devDependencies": {
