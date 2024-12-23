@@ -1,0 +1,19 @@
+{
+  "name": "@oddfeeling/auth-server",
+  "version": "0.0.1",
+  "description": "Auth server ",
+  "keywords": [
+    "authentication"
+  ],
+  "license": "MIT",
+  "author": "Emmanuel Alawode",
+  "type": "module ",
+  "main": "dist/index.js ",
+  "scripts": {
+    "test": "test "
+  },
+  "devDependencies": {
+    "tsup": "^8.3.5",
+    "typescript": "^5.7.2"
+  }
+}
