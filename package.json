@@ -1,6 +1,6 @@
 {
   "name": "@oddfeeling/auth-server",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Auth server",
   "keywords": [
     "authentication"
